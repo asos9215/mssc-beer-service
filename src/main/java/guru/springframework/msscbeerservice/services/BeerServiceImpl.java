@@ -90,6 +90,7 @@ public class BeerServiceImpl implements BeerService {
     }
 
     public void testMethodTwo() {
+        //Creating a conflict between master and feature.
         System.out.println("In testMethodTwo");
     }
 
