@@ -89,6 +89,10 @@ public class BeerServiceImpl implements BeerService {
         System.out.println("In testMethod");
     }
 
+    public void testMethodTwo() {
+        System.out.println("In testMethodTwo");
+    }
+
     @Override
     public BeerDto saveNewBeer(BeerDto beerDto) {
         return beerMapper.beerToBeerDto(beerRepository.save(beerMapper.beerDtoToBeer(beerDto)));
