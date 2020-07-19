@@ -90,7 +90,8 @@ public class BeerServiceImpl implements BeerService {
     }
 
     public void testMethodTwo() {
-        System.out.println("In testMethodTwo");
+
+        System.out.println("In testMethodTwo. feature creating conflict");
     }
 
     @Override
